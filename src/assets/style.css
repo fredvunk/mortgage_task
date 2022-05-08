@@ -1,0 +1,27 @@
+@import "partials/nav.css";
+@import "partials/main.css";
+@import "partials/footer.css";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #F5F6F8;
+}
+
+ul {
+    padding: 0;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

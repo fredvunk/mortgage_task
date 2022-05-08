@@ -1,0 +1,273 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 538px;
+    background:
+            linear-gradient(0deg, rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+            url('../icons/background.svg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-container {
+    padding: 0 15px;
+}
+
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 15px 20px 15px;
+}
+
+.hero-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 60px;
+    border-radius: 40px;
+    margin: 0 auto;
+    background-color: #4079FF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.calculator {
+    flex: 3;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    background: #FFFFFF;
+    color: #1B2125;
+    box-shadow: 21.5556px 43.1111px 53.0598px rgba(21, 27, 37, 0.07), 2.48718px 4.1453px 17.4103px rgba(28, 69, 97, 0.06), 29.8462px 43.9402px 140.94px rgba(12, 25, 71, 0.08);
+    border-radius: 20px;
+}
+
+.calculator h4 {
+    margin: 0;
+}
+
+.calculator-container {
+    padding: 50px 20px;
+}
+
+.calculator-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    padding: 20px 0;
+}
+
+.input-box input {
+    border: 1px solid #C8CFD2;
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+}
+
+.input-box--term {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box--term label {
+    margin-bottom: 0;
+}
+
+.input-box .payment {
+    width: 100%;
+}
+
+.prefix {
+    color: #4079FF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.down-payment-value {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B2125;
+}
+
+.payment-value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box-finance {
+    height: 60px;
+    background: #F4F7FF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.financing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.financing span {
+    position: absolute;
+    right: 84px;
+    color: #4079FF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input[type="number"]#financeValue {
+    border: 0;
+    width: 30%;
+    font-size: 20px;
+    background-color: transparent;
+    color: #1B2125;
+    font-weight: 600;
+}
+
+.financing label {
+    margin: 0;
+}
+
+.value {
+    border-radius: 30px;
+    border: 1px solid #C8CFD2;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+}
+
+.value::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4079FF;
+}
+
+input[type="number"]#cpf::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B2125;
+}
+
+.consultation {
+    background: #4079FF;
+    border-radius: 40px;
+    height: 60px;
+    width: 100%;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.filler {
+    height: 590px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B2125
+}
+
+article {
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+article header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1B2125;
+    margin-top: 30px;
+}
+
+article p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #63686B;
+}
+
+.article-data-container {
+    padding: 40px 30px 24px 30px;
+}
+
+.img-box {
+    width: 120px;
+    height: 120px;
+}
+
+@media (min-width: 1220px){
+    .hero-background {
+        width: 100%;
+    }
+
+    .benefits {
+        flex-direction: row;
+    }
+}
